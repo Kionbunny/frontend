@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Explanation of Each Directive
+@tailwind base:
+index .css is used for global styling 
+Adds Tailwind's base styles, which include CSS resets and normalization styles.
+These styles ensure consistent rendering across different browsers and provide a clean slate for your project.
+Example:
+css
+Copy code
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+@tailwind components:
+
+Includes predefined component classes provided by Tailwind, such as buttons, cards, forms, etc., which you can extend or customize.
+These are reusable styles that can speed up development.
+@tailwind utilities:
+
+Loads utility classes like text-center, bg-blue-500, p-4, etc., which you use to style your elements directly in your markup.
+This is the core of the utility-first CSS approach that Tailwind promotes. */
